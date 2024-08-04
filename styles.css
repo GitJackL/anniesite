@@ -26,14 +26,13 @@ body {
 .hero-section {
   background: url('images/home-bg.jpg') no-repeat center center;
   background-size: cover;
-  min-height: 100vh;
   color: white;
-  height: 100vh; /* Full viewport height */
+  min-height: 100vh; /* Ensures the section takes up the full viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px; /* if needed */
+  padding: 20px; /* Add padding if needed */
 }
 
 .hero-text h1 {
@@ -72,10 +71,10 @@ section {
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .navbar-nav {
-      text-align: center;
+  .hero-text h1 {
+      font-size: 3em;
   }
-  .navbar-nav .nav-item {
-      margin: 10px 0;
+  .hero-text p {
+      font-size: 1.2em;
   }
 }
