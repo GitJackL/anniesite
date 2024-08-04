@@ -187,8 +187,7 @@ body {
 /* Hero section */
 .hero-section {
   background: url('images/home-bg.jpg') no-repeat center center;
-  background-size: cover;
-  background-position: top; /* Adjust the position */
+  background-size: contain;
   background-attachment: fixed; /* Fixes the background image */
   color: white;
   min-height: 100vh; /* Ensures the section takes up the full viewport height */
@@ -198,8 +197,6 @@ body {
   text-align: center;
   padding: 20px; /* Add padding if needed */
 }
-
-
 
 .hero-text h1 {
   font-size: 4em;
