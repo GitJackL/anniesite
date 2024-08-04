@@ -187,16 +187,18 @@ body {
 /* Hero section */
 .hero-section {
   background: url('images/home-bg.jpg') no-repeat center center;
-  background-size: contain;
+  background-size: cover;
+  background-position: center top;
   background-attachment: fixed; /* Fixes the background image */
   color: white;
-  min-height: 100vh; /* Ensures the section takes up the full viewport height */
+  height: 120vh; /* Increase the height to show more of the image */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 20px; /* Add padding if needed */
 }
+
 
 .hero-text h1 {
   font-size: 4em;
