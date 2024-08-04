@@ -27,7 +27,7 @@ body {
   background: url('images/home-bg.jpg') no-repeat center center;
   background-size: cover;
   color: white;
-  min-height: 150vh; /* Ensures the section takes up the full viewport height */
+  min-height: 100vh; /* Ensures the section takes up the full viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,12 +36,12 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 4em;
+  font-size: 12em;
   font-weight: bold;
 }
 
 .hero-text p {
-  font-size: 1.5em;
+  font-size: 4.5em;
 }
 
 /* Section styles */
