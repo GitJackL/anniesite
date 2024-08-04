@@ -6,7 +6,7 @@ body {
 
 /* Navbar styles */
 .navbar {
-  background-color: #f8f9fa; /* Light background for elegance */
+  background-color: #f8f9fa; /* Light background */
 }
 
 .navbar-brand {
@@ -22,23 +22,30 @@ body {
   color: #5b2c6f !important; /* Darker purple on hover */
 }
 
-/* Section styles */
-section {
-  padding: 60px 0;
-}
-
-/* Home section */
-#home {
+/* Hero section */
+.hero-section {
   background: url('images/home-bg.jpg') no-repeat center center;
   background-size: cover;
   color: white;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 100px 0;
 }
 
-#home h1 {
-  font-size: 3em;
+.hero-text h1 {
+  font-size: 4em;
   font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 1.5em;
+}
+
+/* Section styles */
+section {
+  padding: 60px 0;
 }
 
 /* About section */
