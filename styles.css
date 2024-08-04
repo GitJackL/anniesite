@@ -29,7 +29,7 @@ section {
 
 /* Home section */
 #home {
-  background: url('images/IMG_0059.jpg') no-repeat center center;
+  background: url('images/home-bg.jpg') no-repeat center center;
   background-size: cover;
   color: white;
   text-align: center;
