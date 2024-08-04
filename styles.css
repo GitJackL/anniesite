@@ -187,7 +187,7 @@ body {
 /* Hero section */
 .hero-section {
   background: url('images/home-bg.jpg') no-repeat center center;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed; /* Fixes the background image */
   color: white;
   min-height: 100vh; /* Ensures the section takes up the full viewport height */
