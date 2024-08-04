@@ -27,7 +27,7 @@ body {
   background: url('images/home-bg.jpg') no-repeat center center;
   background-size: cover;
   color: white;
-  min-height: 100vh; /* Ensures the section takes up the full viewport height */
+  min-height: 80vh; /* Ensures the section takes up the full viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
