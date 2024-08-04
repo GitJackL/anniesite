@@ -26,12 +26,14 @@ body {
 .hero-section {
   background: url('images/home-bg.jpg') no-repeat center center;
   background-size: cover;
+  min-height: 100vh;
   color: white;
   height: 100vh; /* Full viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 20px; /* if needed */
 }
 
 .hero-text h1 {
